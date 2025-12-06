@@ -1,11 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 import AppLayout from "../layout/AppLayout";
-import Homepage from "../pages/Homepage";
-import Comments from "../pages/Comments";
 import ErrorPage from "../pages/ErrorPage";
 import { lazy, Suspense } from "react";
 import { ProductSection } from "../components/ProductSection";
 import Cart from "../pages/Cart";
+import Homepage from "../pages/Homepage";
 
 const ProductDetails = lazy(() => import("../pages/ProductDetails"));
 
