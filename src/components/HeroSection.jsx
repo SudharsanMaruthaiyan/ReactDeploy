@@ -1,6 +1,6 @@
 import React from "react";
 
-const Herosection = () => {
+const HeroSection = () => {
   return (
     <div>
       <section className="bg-white dark:bg-gray-900">
@@ -183,4 +183,4 @@ const Herosection = () => {
   );
 };
 
-export default Herosection;
+export default HeroSection;
