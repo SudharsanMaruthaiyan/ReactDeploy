@@ -1,5 +1,3 @@
-import React, { useContext } from "react";
-import Herosection from "../components/Herosection";
 import { ProductSection } from "../components/ProductSection";
 
 const Homepage = () => {
