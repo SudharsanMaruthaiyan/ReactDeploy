@@ -1,7 +1,6 @@
 import React, { useContext, useState } from "react";
 import ComponentB from "./ComponentB";
 import UserStore from "../../store/UserStore";
-import { da } from "zod/v4/locales";
 
 const ComponentA = () => {
   const [name, setName] = useState("Ram");
